@@ -1,21 +1,39 @@
 Ticket Management System
 
+
 Description
+
 This is a Ticket Management System built using Node.js and MongoDB. The system manages users, buses, and tickets, allowing users to book bus tickets and view available seats.
 
+
 Features
+
+
 User Management: User registration and role-based access (Admin/User).
+
 Bus Management: Create, update, and manage bus and ticket details (admin).
+
 Ticket Booking: Users can book tickets for buses and view their booking status.
 
+
+
 Tech Stack
+
 Backend: Node.js (Express.js)
+
 Database: MongoDB
+
 Others: JSON Web Token (JWT) for authentication, BcryptJS for hashing password
+
+
 
 ***.env file is open and upload for inspecting the project(not encouraged to push in github)
 
+
+
 API Endpoints
+
+
 Authentication APIs
 - POST /auth/register: User registration.
 - POST /auth/login: User login.
